@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
-    
+     
 </head>
 <body>
         <div id="musicplayer">
@@ -12,18 +12,17 @@
             </div>
     <div id="dz-root"></div>
     <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>
-    <script>
-        DZ.init({
-            appId  : '1',
-            channelUrl : 'http://nikimusics.com/channel.html'
-        });
-    </script>
-    <label id="art" style="color: red; padding-right: 50px;">Исполнитель  </label>
+    <div class="rul" style="display: block; margin-top: 30px; margin-left: 90px;">
+    <label id="art" style="color: red; padding-right: 50px; font-size: 24px;">Исполнитель  </label>
     <input type="text" id="artistPlayer">
     <br>
     <br>
+    <label id="track" style="color: red; padding-right: 120px; font-size: 24px;">Песня  </label>
+    <input type="text" id="trackPlayer">
+    <br>
+    <br>
     
-    <button id="playBtn" style="background-color: aqua;">Искать</button>  
+    <button id="playBtn" style="background-color: aqua;">Искать</button> </div> 
     <script src="./script.js"></script>
     
     
